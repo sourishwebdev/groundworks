@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f2efe6" />
+    <meta
+      name="description"
+      content="Groundwork Studio — free web design for registered nonprofits. Built by volunteers who believe your mission deserves a strong home online."
+    />
+    <title>Groundwork Studio — Web design for nonprofits, at no cost</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Syne:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__brand" href="#top">
+          <span class="nav__brand-mark" aria-hidden="true"></span>
+          Groundwork Studio
+        </a>
+        <button
+          class="nav__toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          data-nav-toggle
+        >
+          <span class="nav__toggle-bar" aria-hidden="true"></span>
+          <span class="nav__toggle-bar" aria-hidden="true"></span>
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <div class="nav__links" id="nav-menu" data-nav-menu>
+          <a class="nav__link" href="#services">Services</a>
+          <a class="nav__link" href="#process">How it works</a>
+          <a class="nav__link" href="#contact">Contact</a>
+          <a class="nav__cta" href="#apply">Request a project</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__grid">
+          <p class="hero__eyebrow">Volunteer-led · Remote-first</p>
+          <h1 id="hero-title" class="hero__title">
+            Web design that carries your mission—
+            <em class="hero__title-accent">without the invoice.</em>
+          </h1>
+          <p class="hero__lede">
+            Groundwork Studio pairs registered nonprofits with designers and developers who
+            donate their craft. We scope thoughtfully, ship accessible sites, and hand you
+            ownership when we’re done.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#apply">Start an intake</a>
+            <button type="button" class="btn btn--ghost" data-open-portfolio>
+              See what we build
+            </button>
+          </div>
+          <dl class="hero__stats" aria-label="Impact at a glance">
+            <div class="hero__stat">
+              <dt class="hero__stat-label">Organizations in our pipeline</dt>
+              <dd class="hero__stat-value"><span data-count="24">0</span>+</dd>
+            </div>
+            <div class="hero__stat">
+              <dt class="hero__stat-label">Average turnaround</dt>
+              <dd class="hero__stat-value"><span data-count="8">0</span> weeks</dd>
+            </div>
+            <div class="hero__stat">
+              <dt class="hero__stat-label">Core team &amp; volunteers</dt>
+              <dd class="hero__stat-value"><span data-count="12">0</span></dd>
+            </div>
+          </dl>
+        </div>
+        <p class="hero__tagline" aria-hidden="true">
+          <span class="hero__tagline-inner">A nonprofit for nonprofits · A platform for your mission</span>
+        </p>
+      </section>
+
+      <div class="marquee" role="presentation" aria-hidden="true">
+        <div class="marquee__track">
+          <div class="marquee__group">
+            <span>Accessibility-first layouts</span>
+            <span class="marquee__dot"></span>
+            <span>Donation-ready pages</span>
+            <span class="marquee__dot"></span>
+            <span>Brand systems you can grow</span>
+            <span class="marquee__dot"></span>
+            <span>Handoff docs &amp; training</span>
+            <span class="marquee__dot"></span>
+            <span>No agency retainers</span>
+            <span class="marquee__dot"></span>
+          </div>
+          <div class="marquee__group" aria-hidden="true">
+            <span>Accessibility-first layouts</span>
+            <span class="marquee__dot"></span>
+            <span>Donation-ready pages</span>
+            <span class="marquee__dot"></span>
+            <span>Brand systems you can grow</span>
+            <span class="marquee__dot"></span>
+            <span>Handoff docs &amp; training</span>
+            <span class="marquee__dot"></span>
+            <span>No agency retainers</span>
+            <span class="marquee__dot"></span>
+          </div>
+        </div>
+      </div>
+
+      <section class="section section--services" id="services" aria-labelledby="services-title">
+        <div class="section__head">
+          <p class="section__kicker">What we take on</p>
+          <h2 id="services-title" class="section__title">Services built around small teams</h2>
+          <p class="section__intro">
+            Most partners need a credible site before they can fundraise or recruit at scale. We
+            focus on foundations that last—clear story, fast pages, and content you can update.
+          </p>
+        </div>
+        <ul class="services">
+          <li class="service-card">
+            <span class="service-card__index">01</span>
+            <h3 class="service-card__title">Discovery &amp; IA</h3>
+            <p class="service-card__text">
+              Stakeholder interviews, sitemap, and messaging hierarchy so visitors understand
+              your impact in seconds.
+            </p>
+          </li>
+          <li class="service-card">
+            <span class="service-card__index">02</span>
+            <h3 class="service-card__title">Visual identity refresh</h3>
+            <p class="service-card__text">
+              Logo polish, color and type direction, and reusable components that feel cohesive
+              across print and web.
+            </p>
+          </li>
+          <li class="service-card">
+            <span class="service-card__index">03</span>
+            <h3 class="service-card__title">Marketing site build</h3>
+            <p class="service-card__text">
+              Multi-page or single-page sites with performance budgets, semantic HTML, and WCAG
+              AA as our baseline.
+            </p>
+          </li>
+          <li class="service-card">
+            <span class="service-card__index">04</span>
+            <h3 class="service-card__title">Donations &amp; email capture</h3>
+            <p class="service-card__text">
+              Integration guidance for your processor or platform—embedded forms, receipts, and
+              donor journeys that stay trustworthy.
+            </p>
+          </li>
+          <li class="service-card">
+            <span class="service-card__index">05</span>
+            <h3 class="service-card__title">Content migration</h3>
+            <p class="service-card__text">
+              Moving legacy pages, cleaning PDFs into HTML where it helps, and redirects so
+              bookmarks and search keep working.
+            </p>
+          </li>
+          <li class="service-card">
+            <span class="service-card__index">06</span>
+            <h3 class="service-card__title">Launch playbook</h3>
+            <p class="service-card__text">
+              Analytics setup, basic SEO checklist, editor training, and a short maintenance guide
+              so your team stays confident.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section section--process" id="process" aria-labelledby="process-title">
+        <div class="process-layout">
+          <div class="process-layout__intro">
+            <p class="section__kicker">How it works</p>
+            <h2 id="process-title" class="section__title">Four beats from hello to handoff</h2>
+            <p class="section__intro">
+              We keep cycles predictable so volunteers can plan around day jobs—and so your board
+              always knows what’s next.
+            </p>
+          </div>
+          <ol class="steps">
+            <li class="step">
+              <span class="step__num" aria-hidden="true">1</span>
+              <div class="step__body">
+                <h3 class="step__title">Intake form</h3>
+                <p class="step__text">
+                  Tell us your mission, audience, timeline, and any must-have integrations. We
+                  reply within five business days.
+                </p>
+              </div>
+            </li>
+            <li class="step">
+              <span class="step__num" aria-hidden="true">2</span>
+              <div class="step__body">
+                <h3 class="step__title">Fit call</h3>
+                <p class="step__text">
+                  A 30-minute conversation to confirm scope, assets, and whether we’re the right
+                  volunteer match for this season.
+                </p>
+              </div>
+            </li>
+            <li class="step">
+              <span class="step__num" aria-hidden="true">3</span>
+              <div class="step__body">
+                <h3 class="step__title">Design &amp; build sprints</h3>
+                <p class="step__text">
+                  Weekly async updates and two live reviews. You’ll see wireframes, then high-fidelity
+                  screens, then the working site in staging.
+                </p>
+              </div>
+            </li>
+            <li class="step">
+              <span class="step__num" aria-hidden="true">4</span>
+              <div class="step__body">
+                <h3 class="step__title">Launch &amp; documentation</h3>
+                <p class="step__text">
+                  DNS cutover, monitoring checks, and a concise handoff packet: credentials map,
+                  editor walkthrough, and where to ask follow-up questions.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="cta-band" id="apply" aria-labelledby="cta-title">
+        <div class="cta-band__inner">
+          <div class="cta-band__copy">
+            <h2 id="cta-title" class="cta-band__title">Ready when your board is</h2>
+            <p class="cta-band__text">
+              We prioritize U.S.-registered 501(c)(3) organizations with an active program and a
+              point person who can join reviews. If we’re at capacity, we’ll suggest timelines or
+              self-serve resources.
+            </p>
+          </div>
+          <div class="cta-band__actions" id="contact">
+            <a
+              class="btn btn--dark btn--stacked"
+              href="mailto:sourishwebdev@gmail.com?subject=Groundwork%20Studio%20project%20intake"
+            >
+              <span class="btn__pretext">Email</span>
+              <span class="btn__email">sourishwebdev@gmail.com</span>
+            </a>
+            <p class="cta-band__note">
+              Include your EIN, website (if any), and the outcome you need in the next 90 days.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="portfolio-modal" id="portfolio-modal" aria-labelledby="portfolio-modal-title">
+      <div class="portfolio-modal__panel">
+        <div class="portfolio-modal__head">
+          <div>
+            <h2 id="portfolio-modal-title" class="portfolio-modal__title">What we build</h2>
+            <p class="portfolio-modal__subtitle">
+              Four static demos—each opens in its own folder so you can click around the full layout.
+            </p>
+          </div>
+          <button
+            type="button"
+            class="portfolio-modal__close"
+            data-close-portfolio
+            aria-label="Close"
+          >
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <ul class="portfolio-modal__grid">
+          <li>
+            <a class="portfolio-modal__card" href="animalshelter/index.html">
+              <span class="portfolio-modal__card-title">Mohawk Hudson Humane Center</span>
+              <span class="portfolio-modal__card-desc">
+                Adoption stories, donate and volunteer paths, and a calm layout built around animals
+                finding homes.
+              </span>
+              <span class="portfolio-modal__card-go" aria-hidden="true">Open demo →</span>
+            </a>
+          </li>
+          <li>
+            <a class="portfolio-modal__card" href="barbershop/index.html">
+              <span class="portfolio-modal__card-title">The Branded Barber</span>
+              <span class="portfolio-modal__card-desc">
+                Neighborhood shop energy—services, hours, and booking-style prompts without a heavy
+                booking engine.
+              </span>
+              <span class="portfolio-modal__card-go" aria-hidden="true">Open demo →</span>
+            </a>
+          </li>
+          <li>
+            <a class="portfolio-modal__card" href="commartgallery/index.html">
+              <span class="portfolio-modal__card-title">Albany Center Art Gallery</span>
+              <span class="portfolio-modal__card-desc">
+                A community gallery feel—exhibitions, visiting info, and membership framed for first-time
+                visitors.
+              </span>
+              <span class="portfolio-modal__card-go" aria-hidden="true">Open demo →</span>
+            </a>
+          </li>
+          <li>
+            <a class="portfolio-modal__card" href="fcsaints/index.html">
+              <span class="portfolio-modal__card-title">FC Saints</span>
+              <span class="portfolio-modal__card-desc">
+                Youth club storytelling—practice schedules, registration cues, and team pride pages
+                parents can scan quickly.
+              </span>
+              <span class="portfolio-modal__card-go" aria-hidden="true">Open demo →</span>
+            </a>
+          </li>
+        </ul>
+        <p class="portfolio-modal__disclaimer">
+          These demos are not live sites for the named organizations. They only showcase our
+          volunteers’ skills, and those businesses and nonprofits have no affiliation with Groundwork
+          Studio or these pages.
+        </p>
+      </div>
+    </dialog>
+
+    <footer class="site-footer">
+      <div class="site-footer__top">
+        <div class="site-footer__brand">
+          <p class="site-footer__name">Groundwork Studio</p>
+          <p class="site-footer__slogan">
+            <em>A nonprofit for nonprofits.</em> <em>A platform for your mission.</em>
+          </p>
+        </div>
+        <div class="site-footer__founders">
+          <p class="site-footer__label">Founders</p>
+          <ul class="site-footer__list">
+            <li>
+              <a href="https://sourishwebdev.github.io" rel="noopener noreferrer">Sourish Arvapally</a>
+              ·
+              <a href="mailto:sourishwebdev@gmail.com">sourishwebdev@gmail.com</a>
+            </li>
+            <li>Daniel Portocarrero</li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p class="site-footer__legal">© <span data-year></span> Groundwork Studio. Volunteer work; not legal or tax advice.</p>
+        <a class="site-footer__back" href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>

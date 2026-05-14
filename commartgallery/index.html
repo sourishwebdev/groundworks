@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Albany Center Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Karla:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <p class="site-header__label">Independent · Contemporary</p>
+      <nav class="site-header__nav" aria-label="Primary">
+        <a href="#exhibitions">Exhibitions</a>
+        <a href="#artists">Artists</a>
+        <a href="#events">Events</a>
+        <a href="#visit">Visit</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__grid">
+          <h1 id="hero-title" class="hero__title">
+            <span class="hero__title-line hero__title-line--1">Albany</span>
+            <span class="hero__title-line hero__title-line--2">Center</span>
+            <span class="hero__title-line hero__title-line--3"
+              >Gallery<span class="hero__title-accent" aria-hidden="true">.</span></span>
+          </h1>
+          <p class="hero__lede">
+            A nonprofit space for contemporary painting, sculpture, and installation—open
+            Thursday through Sunday, free admission.
+          </p>
+        </div>
+      </section>
+
+      <section id="exhibitions" class="section section--exhibitions">
+        <div class="section__intro">
+          <p class="section__eyebrow">On view</p>
+          <h2 class="section__heading">Current exhibitions</h2>
+        </div>
+
+        <article class="ex-card ex-card--primary">
+          <div class="ex-card__media">
+            <img
+              src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1600&q=80"
+              alt="Abstract composition with soft curved planes in cream, blue, and charcoal"
+              width="800"
+              height="1000"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+          <div class="ex-card__body">
+            <p class="ex-card__dates">March 8 — June 1, 2026</p>
+            <h3 class="ex-card__title">Soft Geometry</h3>
+            <p class="ex-card__text">
+              New large-scale works by Lena Okonkwo exploring edge, overlap, and the quiet
+              tension between flat color and shallow relief.
+            </p>
+            <a class="text-link" href="#visit">Plan a visit</a>
+          </div>
+        </article>
+
+        <article class="ex-card ex-card--secondary">
+          <div class="ex-card__media">
+            <img
+              src="https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=1600&q=80"
+              alt="Sculptural forms and pedestals in a white-walled gallery"
+              width="800"
+              height="900"
+              loading="lazy"
+            />
+          </div>
+          <div class="ex-card__body">
+            <p class="ex-card__dates">April 12 — August 3, 2026</p>
+            <h3 class="ex-card__title">Holding Pattern</h3>
+            <p class="ex-card__text">
+              A two-person show with Marco Ruiz and Heejin Park: cast forms, wire, and
+              suspended elements that trace the architecture of the room itself.
+            </p>
+            <a class="text-link" href="#events">Opening reception</a>
+          </div>
+        </article>
+      </section>
+
+      <section id="artists" class="section section--artists">
+        <div class="section__intro section__intro--row">
+          <p class="section__eyebrow">Roster</p>
+          <h2 class="section__heading">Artists</h2>
+        </div>
+        <ul class="artist-grid">
+          <li>
+            <span class="artist-grid__name">Lena Okonkwo</span>
+            <span class="artist-grid__medium">Oil, acrylic on linen</span>
+          </li>
+          <li>
+            <span class="artist-grid__name">Marco Ruiz</span>
+            <span class="artist-grid__medium">Cast resin, steel</span>
+          </li>
+          <li>
+            <span class="artist-grid__name">Heejin Park</span>
+            <span class="artist-grid__medium">Wire, paper, light</span>
+          </li>
+          <li>
+            <span class="artist-grid__name">Theo Brennan</span>
+            <span class="artist-grid__medium">Silver gelatin, ink</span>
+          </li>
+          <li>
+            <span class="artist-grid__name">Sofia Castellanos</span>
+            <span class="artist-grid__medium">Ceramic, glaze</span>
+          </li>
+          <li>
+            <span class="artist-grid__name">James Whitford</span>
+            <span class="artist-grid__medium">Sound, field recording</span>
+          </li>
+          <li>
+            <span class="artist-grid__name">Amara Singh</span>
+            <span class="artist-grid__medium">Textile, natural dye</span>
+          </li>
+          <li>
+            <span class="artist-grid__name">Elena Voss</span>
+            <span class="artist-grid__medium">Graphite, wall drawing</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="events" class="section section--events">
+        <div class="section__intro">
+          <p class="section__eyebrow">Calendar</p>
+          <h2 class="section__heading">Openings &amp; events</h2>
+        </div>
+        <ol class="event-list">
+          <li class="event-list__item">
+            <time class="event-list__date" datetime="2026-05-17">May 17</time>
+            <div class="event-list__detail">
+              <h3 class="event-list__title">Artist talk — Lena Okonkwo</h3>
+              <p class="event-list__meta">2:00 p.m. · Main gallery</p>
+            </div>
+          </li>
+          <li class="event-list__item">
+            <time class="event-list__date" datetime="2026-05-24">May 24</time>
+            <div class="event-list__detail">
+              <h3 class="event-list__title">Opening reception — Holding Pattern</h3>
+              <p class="event-list__meta">6:00–8:00 p.m. · All spaces</p>
+            </div>
+          </li>
+          <li class="event-list__item">
+            <time class="event-list__date" datetime="2026-06-07">Jun 7</time>
+            <div class="event-list__detail">
+              <h3 class="event-list__title">Curator walkthrough with Dana Ellis</h3>
+              <p class="event-list__meta">11:00 a.m. · Free, RSVP encouraged</p>
+            </div>
+          </li>
+          <li class="event-list__item">
+            <time class="event-list__date" datetime="2026-06-21">Jun 21</time>
+            <div class="event-list__detail">
+              <h3 class="event-list__title">Summer solstice listening — James Whitford</h3>
+              <p class="event-list__meta">Sunset · Sculpture court</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="visit" class="section section--visit">
+        <div class="section__intro">
+          <p class="section__eyebrow">Visit</p>
+          <h2 class="section__heading">Hours &amp; location</h2>
+        </div>
+        <div class="visit-block">
+          <div class="visit-block__hours">
+            <h3 class="visit-block__subheading">Hours</h3>
+            <dl class="hours-list">
+              <div>
+                <dt>Thu–Sat</dt>
+                <dd>11:00 a.m. — 6:00 p.m.</dd>
+              </div>
+              <div>
+                <dt>Sun</dt>
+                <dd>12:00 — 5:00 p.m.</dd>
+              </div>
+              <div>
+                <dt>Mon–Wed</dt>
+                <dd>Closed</dd>
+              </div>
+            </dl>
+            <p class="visit-block__note">
+              Admission is free. The building is wheelchair accessible; large-print guides are
+              available at the desk.
+            </p>
+          </div>
+          <div class="visit-block__location">
+            <h3 class="visit-block__subheading">Location</h3>
+            <address class="visit-block__address">
+              428 Lark Street<br />
+              Albany, NY 12210<br />
+              United States
+            </address>
+            <p>
+              <a class="text-link" href="https://maps.google.com/?q=428+Lark+Street+Albany+NY"
+                >Open in Maps</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="site-footer__name">Albany Center Gallery</p>
+      <ul class="site-footer__links">
+        <li><a href="mailto:hello@albanycentergallery.org">hello@albanycentergallery.org</a></li>
+        <li><a href="tel:+15185550194">518 555 0194</a></li>
+        <li><a href="#main">Back to top</a></li>
+      </ul>
+      <p class="site-footer__meta">© 2026 Albany Center Gallery</p>
+    </footer>
+  </body>
+</html>

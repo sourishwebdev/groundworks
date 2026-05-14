@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohawk Hudson Humane Society</title>
+    <meta
+      name="description"
+      content="Mohawk Hudson Humane Society — adoption, foster, and community support for animals across the Capital Region."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__brand" href="#top">Mohawk Hudson Humane Society</a>
+        <button
+          class="nav__toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          id="nav-toggle"
+        >
+          <span class="nav__toggle-text">Menu</span>
+        </button>
+        <ul class="nav__list" id="nav-menu">
+          <li><a href="#animals">Adopt</a></li>
+          <li><a href="#volunteer">Volunteer</a></li>
+          <li><a href="#donate">Donate</a></li>
+          <li><a href="#impact">Impact</a></li>
+          <li><a href="#visit">Visit</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero__grid">
+          <div class="hero__copy">
+            <p class="hero__kicker">Capital Region · adoption &amp; foster</p>
+            <h1 id="hero-heading" class="hero__title">
+              A home for the ones still waiting.
+            </h1>
+            <p class="hero__lede">
+              We meet animals on their worst day and stay with them until the
+              right day comes — medical care, training, patience, and people who
+              show up.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#animals">Meet our animals</a>
+              <a class="btn btn--ghost" href="#donate">Support the shelter</a>
+            </div>
+          </div>
+          <figure class="hero__figure">
+            <img
+              src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=900&q=80"
+              alt="Two dogs running together on a path"
+              width="900"
+              height="1100"
+              loading="eager"
+              fetchpriority="high"
+            />
+            <figcaption class="hero__caption">
+              Adoption and foster visits by appointment — we will find a slot
+              that fits the animal you are hoping to meet.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="animals" id="animals" aria-labelledby="animals-heading">
+        <div class="section-head">
+          <h2 id="animals-heading" class="section-head__title">Adoptable now</h2>
+          <p class="section-head__text">
+            These faces are current as of this week. If someone feels like the
+            right fit, we will walk you through introductions at the animal’s
+            pace — not yours alone.
+          </p>
+        </div>
+
+        <ul class="pet-grid">
+          <li class="pet-card">
+            <article>
+              <div class="pet-card__media">
+                <img
+                  src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=640&q=80"
+                  alt="Hazel, a mixed-breed dog looking toward the camera"
+                  width="640"
+                  height="720"
+                  loading="lazy"
+                />
+              </div>
+              <div class="pet-card__body">
+                <h3 class="pet-card__name">Hazel</h3>
+                <p class="pet-card__meta">Hound mix · 3 years</p>
+                <button
+                  type="button"
+                  class="btn btn--small btn--primary"
+                  aria-label="Start adoption for Hazel"
+                >
+                  Adopt
+                </button>
+              </div>
+            </article>
+          </li>
+          <li class="pet-card">
+            <article>
+              <div class="pet-card__media">
+                <img
+                  src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=640&q=80"
+                  alt="Juno, a short-haired cat resting on a blanket"
+                  width="640"
+                  height="720"
+                  loading="lazy"
+                />
+              </div>
+              <div class="pet-card__body">
+                <h3 class="pet-card__name">Juno</h3>
+                <p class="pet-card__meta">Domestic shorthair · 6 years</p>
+                <button
+                  type="button"
+                  class="btn btn--small btn--primary"
+                  aria-label="Start adoption for Juno"
+                >
+                  Adopt
+                </button>
+              </div>
+            </article>
+          </li>
+          <li class="pet-card">
+            <article>
+              <div class="pet-card__media">
+                <img
+                  src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=640&q=80"
+                  alt="Bruno, a retriever mix sitting attentively"
+                  width="640"
+                  height="720"
+                  loading="lazy"
+                />
+              </div>
+              <div class="pet-card__body">
+                <h3 class="pet-card__name">Bruno</h3>
+                <p class="pet-card__meta">Retriever mix · 5 years</p>
+                <button
+                  type="button"
+                  class="btn btn--small btn--primary"
+                  aria-label="Start adoption for Bruno"
+                >
+                  Adopt
+                </button>
+              </div>
+            </article>
+          </li>
+          <li class="pet-card">
+            <article>
+              <div class="pet-card__media">
+                <img
+                  src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=640&q=80"
+                  alt="Miso, a tabby cat with green eyes"
+                  width="640"
+                  height="720"
+                  loading="lazy"
+                />
+              </div>
+              <div class="pet-card__body">
+                <h3 class="pet-card__name">Miso</h3>
+                <p class="pet-card__meta">Tabby · 1 year</p>
+                <button
+                  type="button"
+                  class="btn btn--small btn--primary"
+                  aria-label="Start adoption for Miso"
+                >
+                  Adopt
+                </button>
+              </div>
+            </article>
+          </li>
+          <li class="pet-card">
+            <article>
+              <div class="pet-card__media">
+                <img
+                  src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=640&q=80"
+                  alt="Pepper, a small mixed-breed dog on a leash outdoors"
+                  width="640"
+                  height="720"
+                  loading="lazy"
+                />
+              </div>
+              <div class="pet-card__body">
+                <h3 class="pet-card__name">Pepper</h3>
+                <p class="pet-card__meta">Terrier mix · 2 years</p>
+                <button
+                  type="button"
+                  class="btn btn--small btn--primary"
+                  aria-label="Start adoption for Pepper"
+                >
+                  Adopt
+                </button>
+              </div>
+            </article>
+          </li>
+          <li class="pet-card">
+            <article>
+              <div class="pet-card__media">
+                <img
+                  src="https://images.unsplash.com/photo-1596854407944-bf87ae76009e?w=640&q=80"
+                  alt="Cleo, a long-haired cat in soft light"
+                  width="640"
+                  height="720"
+                  loading="lazy"
+                />
+              </div>
+              <div class="pet-card__body">
+                <h3 class="pet-card__name">Cleo</h3>
+                <p class="pet-card__meta">Maine coon mix · 4 years</p>
+                <button
+                  type="button"
+                  class="btn btn--small btn--primary"
+                  aria-label="Start adoption for Cleo"
+                >
+                  Adopt
+                </button>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <section class="split" aria-labelledby="split-heading">
+        <h2 id="split-heading" class="visually-hidden">Volunteer and donate</h2>
+        <div class="split__panel split__panel--volunteer" id="volunteer">
+          <p class="split__eyebrow">Hands-on</p>
+          <h3 class="split__title">Volunteer beside us</h3>
+          <p class="split__copy">
+            Morning dog walks, laundry that never ends, shy cats who need someone
+            to read out loud — shifts are two hours or a full morning, and we
+            train you on the animals’ cues first.
+          </p>
+          <a class="btn btn--dark" href="#visit">View orientation dates</a>
+        </div>
+        <div class="split__panel split__panel--donate" id="donate">
+          <p class="split__eyebrow">Steady support</p>
+          <h3 class="split__title">Fund the quiet work</h3>
+          <p class="split__copy">
+            Donations cover surgery, behavior support, and the unglamorous basics:
+            heat, clean linens, and staff who stay late when an intake arrives
+            shaken and hungry.
+          </p>
+          <a class="btn btn--inverse" href="#visit">Give once or monthly</a>
+        </div>
+      </section>
+
+      <section class="stats" id="impact" aria-labelledby="impact-heading">
+        <h2 id="impact-heading" class="visually-hidden">Impact at a glance</h2>
+        <div class="stats__inner">
+          <div class="stats__item">
+            <span class="stats__value">1,842</span>
+            <span class="stats__label">Animals rescued last year</span>
+          </div>
+          <div class="stats__item">
+            <span class="stats__value">1,203</span>
+            <span class="stats__label">Placed in adoptive homes</span>
+          </div>
+          <div class="stats__item">
+            <span class="stats__value">216</span>
+            <span class="stats__label">In foster tonight</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="visit" id="visit" aria-labelledby="visit-heading">
+        <div class="visit__inner">
+          <h2 id="visit-heading" class="visit__title">Plan a visit</h2>
+          <p class="visit__text">
+            Walk-ins can stress animals who are already adjusting. Call or email
+            to schedule — we will match you with a counselor who knows the
+            animals on the floor that day.
+          </p>
+          <address class="visit__address">
+            <span class="visit__org">Mohawk Hudson Humane Society</span><br />
+            3 Oakland Avenue<br />
+            Menands, NY 12204
+          </address>
+          <p class="visit__hours">
+            <strong>Adoption desk:</strong> Mon–Fri 12–6, Sat 10–4 (closed
+            Sundays). Call ahead for same-week openings.<br />
+            <strong>Phone:</strong> (518) 434-8128
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <p class="footer__name">Mohawk Hudson Humane Society</p>
+          <p class="footer__tag">
+            Independent nonprofit serving Albany, Troy, Schenectady, and the
+            towns between.
+          </p>
+        </div>
+        <div class="footer__links">
+          <p class="footer__label">On this site</p>
+          <ul>
+            <li><a href="#animals">Adoption</a></li>
+            <li><a href="#volunteer">Volunteer</a></li>
+            <li><a href="#donate">Donate</a></li>
+            <li><a href="#impact">Annual impact</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <p class="footer__label">Resources</p>
+          <ul>
+            <li><a href="#visit">Lost &amp; found</a></li>
+            <li><a href="#visit">Surrender counseling</a></li>
+            <li><a href="#visit">Community spay/neuter</a></li>
+            <li><a href="#visit">Youth programs</a></li>
+          </ul>
+        </div>
+        <div class="footer__news">
+          <p class="footer__label">Stay close</p>
+          <form class="footer__form" action="#" method="get">
+            <label class="visually-hidden" for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              placeholder="you@example.com"
+              class="footer__input"
+            />
+            <button type="submit" class="btn btn--small btn--primary">
+              Get updates
+            </button>
+          </form>
+          <p class="footer__fine">
+            A few letters a month — adoption highlights, urgent fosters, and one
+            story worth forwarding.
+          </p>
+        </div>
+      </div>
+      <p class="footer__legal">
+        © <span id="year"></span> Mohawk Hudson Humane Society. This page is a
+        static design demo; confirm hours and policies on the live site before
+        visiting.
+      </p>
+    </footer>
+
+    <script>
+      (function () {
+        var toggle = document.getElementById("nav-toggle");
+        var menu = document.getElementById("nav-menu");
+        if (!toggle || !menu) return;
+        toggle.addEventListener("click", function () {
+          var open = menu.classList.toggle("is-open");
+          toggle.setAttribute("aria-expanded", open ? "true" : "false");
+        });
+        menu.querySelectorAll("a").forEach(function (link) {
+          link.addEventListener("click", function () {
+            menu.classList.remove("is-open");
+            toggle.setAttribute("aria-expanded", "false");
+          });
+        });
+        var y = document.getElementById("year");
+        if (y) y.textContent = new Date().getFullYear();
+      })();
+    </script>
+  </body>
+</html>
